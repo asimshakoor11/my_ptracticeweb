@@ -415,3 +415,18 @@ body{
         text-align: justify;
     }
 }
+
+@media only screen and (max-width: 370px){
+
+    #tollfree{
+        margin-top: 13px;
+        margin-right: 20px;
+    }
+    .fab{
+        height: 28px;
+        padding: 1px;
+        margin-top: 7px;
+        background-color: #fdfdfd;
+        border-radius: 50%;
+    }
+}
