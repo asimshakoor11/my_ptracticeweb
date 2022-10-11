@@ -1,0 +1,417 @@
+@font-face {
+    font-family: CodaCaption-ExtraBold;
+    src: url(../Fonts/CodaCaption-ExtraBold.ttf);
+}
+
+h1, h2 ,h3, h4 {
+    font-family: CodaCaption-ExtraBold;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.uni_padding{
+    padding: 0 7%;
+}
+
+/* top bar  */
+#topbar{
+    background-color: #576574 ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: auto;
+}
+
+#socialapp{
+    float: right;
+}
+
+#tollfree{
+    float: left;
+    color: #fdfdfd;
+    margin-top: 9px;
+}
+
+.fab{
+    height: 34px;
+    padding: 2px;
+    background-color: #fdfdfd;
+    border-radius: 50%;
+}
+
+/* logobar  */
+#logobar img{
+    width: 200px;
+    margin: 25px 0px;
+}
+
+/* navbar  */
+#navbar{
+    background-color: #ee5253;
+}
+
+#navbar ul li{
+    display: inline-block;
+    padding: 18px 0px ;
+    padding-right: 35px;
+}
+#navbar ul {
+    margin: 0;
+    padding: 0;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* main  */
+/* poster */
+#poster{
+    background-image: url(../Images/Desktop2.png);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+#poster h1{
+    font-size: 50px;
+}
+
+#poster p{
+    font-size: 18px;
+    text-align: center;
+}
+
+/* why us section  */
+.imgset{
+    width: 70px;
+}
+
+#whysection{
+    overflow: auto;
+    margin-bottom: 50px;
+}
+
+.redheading{
+    color: #ee5253;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.section33{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+}
+
+.section33 h2{
+    color: #ee5253;
+}
+
+.section33 p{
+    color: #363636;
+}
+
+
+/* contact section  */
+#contactcontainer{
+    background-color: #ee5253;
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#contactbtn{
+    background-color: white;
+    color: #ee5253;
+    padding: 15px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section70{
+    width: 70%;
+    float: left;
+}
+
+.section30{
+    width: 30%;
+    float: left;   
+    text-align: center;
+    padding-top: 70px;
+}
+
+/* blog section  */
+.imgsetblog{
+    max-width: 100%;
+}
+
+.section33 a{
+    color: #ee5253;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: CodaCaption-ExtraBold;
+    font-size: 14px;
+
+}
+
+/* subscribe section  */
+#subcribe{
+    background-color: #ee5253;
+    color: white;
+    overflow: auto;
+}
+
+.section50{
+    width: 50%;
+    float: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section50 h2{
+   font-size: 22px;
+   text-align: right;
+   padding-right: 50px;
+   padding-top: 20px;
+
+}
+
+.section50 form{
+    padding-top: 18px;    
+}
+
+.section50 input[type="text"]{
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #ee5253;
+    margin: 20px;
+    border: 0px;
+    width: 45%;
+    border-radius: 5px;
+}
+
+.section50 input[type="submit"]{
+    padding: 8px 35px;
+    font-size: 15px;
+    color: #ee5253;
+    border: 0px;
+    border-radius: 5px;
+
+}
+
+
+/* footer  */
+#implink{
+    background-color: #576574;
+    color: white;
+    overflow: auto;
+}
+
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+    box-sizing: border-box;
+}
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    font-weight: normal;
+}
+
+.div33 p{
+    text-align: justify;
+}
+
+#footermenu{
+    list-style-type: none;
+    padding: 0;
+}
+
+#footermenu li{
+    padding-bottom: 10px;
+}
+
+#footermenu li a{
+    text-decoration: none;
+    color: white;
+}
+
+#footermenucontain{
+    padding-left: 100px;
+}
+
+#Copyright{
+    background-color: #222f3e;
+    text-align: center;
+    color: #cbcbcb;
+    padding: 10px;
+}
+
+/* responsive i-pad  */
+@media  only screen and (max-width: 815px) {    
+    #navbar ul li {
+        padding-right: 20px;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    #navbar ul li {
+        padding-right: 20px;
+    }
+
+    .section70{
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+
+    .section50 input[type="text"] {
+        padding: 10px 10px;
+        margin-top: 30px;
+    }
+
+    .section50 h2{
+        text-align: center;
+    }    
+}
+
+
+/* responsive mobile  */
+
+@media only screen and (max-width: 500px){
+    #logobar{
+        text-align: center;
+    }   
+
+    #poster h1 {
+        font-size: 28px;
+    }
+
+    .section33, .section30, .section50, .section70, .div33{
+        width: 100%;
+    }
+
+    .section70 {
+        padding-right: 0px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .section30 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .section33 a{
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+
+    .section50 h2 {
+        text-align: center;
+        padding-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .section50 {
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .section50 form {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .section50 input[type="text"]{        
+        width: 40%;
+    }
+
+    .div33 {
+        padding: 25px 20px;
+        text-align: center;
+    }
+
+    #footermenucontain {
+        padding-left: 0px;
+    }
+
+    .div33 p {
+        text-align: center;
+    }
+}
+
+/*  mobile  menu*/
+
+#navbar ul #mobilecross, #mobilebar{
+    display: none;
+}
+
+@media only screen and (max-width: 500px){
+
+    #tollfree{
+        margin-top: 13px;
+        margin-right: 25px;
+    }
+    .fab{
+        height: 30px;
+        padding: 2px;
+        margin-top: 4px;
+        background-color: #fdfdfd;
+        border-radius: 50%;
+    }
+
+    #navbar{
+        position: absolute;
+        top: 0px;
+        height: 100vh;
+        width: 280px;
+        padding: 0px;
+    }
+
+    #navbar ul li{
+        display: block;
+        padding-right: 35px;
+        padding-left: 20px;
+        border-bottom: 1px solid #d8d1d1;
+    }
+
+    #mobilecross{
+        text-align: right;
+    }
+
+    #navbar{
+        left: -280px;
+        transition: all 0.5s ease;
+    }
+
+    #mobilebar{
+        background-color: #ee5253;
+        color: white;
+        padding: 18px;
+        font-size: 28px;
+    }
+
+    #navbar ul #mobilecross, #mobilebar{
+        display: block;
+    }
+
+    #poster p {
+        text-align: justify;
+    }
+}
