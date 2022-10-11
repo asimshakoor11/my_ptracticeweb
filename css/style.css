@@ -386,7 +386,7 @@ body{
     }
 
     #navbar{
-        left: -280px;
+/*         left: -280px; */
         transition: all 0.5s ease;
     }
 
