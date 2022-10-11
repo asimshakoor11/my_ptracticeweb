@@ -379,6 +379,7 @@ body{
     #navbar{
         position: absolute;
         top: 0px;
+        left: 0;
         height: 100vh;
         width: 280px;
         padding: 0px;
