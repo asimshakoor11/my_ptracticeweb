@@ -384,7 +384,7 @@ body{
         width: 280px;
         padding: 0px;
     }
-    
+
     #navbar{
         left: -280px;
         transition: all 0.5s ease;
@@ -401,7 +401,6 @@ body{
         text-align: right;
     }
 
-    
     #mobilebar{
         background-color: #ee5253;
         color: white;
